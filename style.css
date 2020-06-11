@@ -6,14 +6,11 @@ body{
 	font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
 	
 }
-.container{
-	max-width: 1900px;
-}
 
 .main{
 	background: url('img/bg.png');
 		
-	
+	max-width: 1900px;
 	
 	
 }
@@ -21,7 +18,7 @@ body{
 .hd{
 	display: flex;
 		
-	
+	max-width: 1900px;
 	
 	
 
@@ -39,13 +36,13 @@ body{
 	margin-left: 13.4%;
 	height: 76px;
 	margin-bottom: 5px;
-	
+	max-width: 1900px;
 }
 .navi{
 	margin-left: 15%;
 	display: flex;
 	margin-bottom: -12px;
-		
+	max-width: 1900px;	
 
 	
 	
@@ -70,7 +67,7 @@ body{
 
 .bad{
 	justify-content: center;
-		
+	max-width: 1900px;	
 	
 }
 
@@ -147,7 +144,7 @@ body{
 	color: #5993b2;
 	margin-bottom: -9%;	
 	background: #11749e;
-	
+	max-width: 1900px;
 	
 }
 .con h2{
@@ -163,7 +160,7 @@ body{
 	
 	margin-left: 250px;
 	margin-right: 250px;
-		
+	max-width: 1900px;	
 	
 	
 }
@@ -188,7 +185,7 @@ body{
 
 .top, .bot{
 	display: flex;
-	
+	max-width: 1900px;
 
 
 }
