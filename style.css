@@ -4,7 +4,7 @@
 }
 body{
 	font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
-		
+	max-width: 1900px;
 }
 
 .main{
