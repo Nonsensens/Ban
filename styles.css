@@ -140,6 +140,11 @@ nav{
 	justify-content: center;
 	align-items: center;
 	display: flex;
+	
+
+}
+.pho{
+	padding-top: 50px;
 
 }
 
@@ -181,6 +186,7 @@ nav{
 	font-size: 24px;
 	margin-bottom: 35px;
 }
+
 
 .subtitle__card{
 	text-align: center;
