@@ -226,7 +226,9 @@ nav{
 
 .items{
 	display: flex;
+
 }
+
 
 .zag1{
 
@@ -270,6 +272,7 @@ nav{
 	max-width: 1640px;
 }
 ._row{
+	padding-top: 50px;
 	display: flex;
 }
 .zaga1{
@@ -277,6 +280,7 @@ nav{
 	margin-bottom: 60px;
 	color: #fff;
 	font-size: 60px;
+	transition: 3s;
 }
 .para1{
 	color: #8492af;
@@ -330,7 +334,9 @@ nav{
 
 
 
-
+.container3{
+	max-width: 1765px;
+}
 
 
 
@@ -473,8 +479,16 @@ nav{
 	}
 	.ima img{
 	max-width: 100%;
-
-	
+	}
+	.items{
+		flex-direction: column;
+	}
+	.n2d img{
+		max-width: 100%;
+	}
+	.items{
+		flex-direction: column;
+	}
 
 }
 
