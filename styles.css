@@ -44,9 +44,11 @@
 	display: block;
 }
 nav{
+	display: flex;
 	margin-left: 0%;
 	margin-top: 2.5%;
 	margin-right: 19.5%;
+	
 	
 }
 .sp{
@@ -54,7 +56,8 @@ nav{
 	list-style-type: none;
 	display: inline-flex;
 	position: relative;
-	z-index: 2
+	z-index: 2;
+	
 
 
 }
@@ -136,8 +139,10 @@ nav{
 	display: flex;
 	justify-content: center;
 	flex: 1 1 882px;
+
 }
 .img img{
+	max-width: 882px;
 }
 .container{
 	max-width: 1660px;
@@ -229,6 +234,8 @@ nav{
 
 @media (max-width:1250px){
 	nav{
+
+		display: block;
 		
 	}
 	.cotainer{
@@ -295,22 +302,40 @@ nav{
 	.header_menu{
 		position: fixed;
 		top: -140%;
-		display: flex;
-		flex-direction: column;
 		left: 0;
 		width: 100%;
 		height: 100%;
 		background: #000;
-		padding-top: 300px;
-		padding-left: 50px;
+		
+		
 		transition: 0.3s;
+		text-align: center;
 	}
 	.header_menu.active{
 		top:50px;
+		
+		
 	}
-	.sl{
-		display: block;
+	.sp {
+
+		justify-content: center;
+		flex-direction: column;
 	}
+	.sp a{
+		margin-top: 50px;
+		margin-bottom: 30px;
+
+	}
+	.nad5{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		margin: 0 auto
+	}
+
+
+
+
 
 }
 
