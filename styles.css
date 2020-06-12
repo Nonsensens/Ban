@@ -489,6 +489,12 @@ nav{
 	.items{
 		flex-direction: column;
 	}
+	.fir img{
+		max-width: 100%;
+	}
+	.imag img{
+		max-width: 100%;
+	}
 
 }
 
