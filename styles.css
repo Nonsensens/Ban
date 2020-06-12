@@ -540,5 +540,17 @@ nav{
 		max-width: 175%;
 
 	}
+	.container5{
+		max-height: 800px;
+	}
+	.zaga1{
+		font-size: 30px;
+	}
+	.para1{
+		font-size: 15px;
+	}
+	.para2{
+		font-size: 15px;
+	}
 
 }
