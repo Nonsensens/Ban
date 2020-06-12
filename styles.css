@@ -163,6 +163,7 @@ nav{
 	margin: 0 -80px;
 
 
+
 }
 .column{	
 	flex:0 1 33.33333%;
@@ -211,7 +212,9 @@ nav{
     border: 1px solid #e9ebf1;
     background-color: #fff;
 }
-  	
+.container2{
+	max-width: 100%;
+}	
 
 
 
@@ -332,7 +335,11 @@ nav{
 		text-align: center;
 		margin: 0 auto
 	}
-
+	
+	.cards__row{
+		flex-direction: column;
+		
+	}
 
 
 
