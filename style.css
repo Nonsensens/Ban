@@ -129,6 +129,7 @@ nav{
 	display: flex;
 	margin: 0 -80px;
 
+
 }
 .column{	
 	flex:0 1 33.33333%;
@@ -226,12 +227,10 @@ nav{
 	}
 	
 }
-@media (max-width: 948px){
-	.container{
-		max-width:750px;
-	}	
-	.container1{
-		max-width:750px;
+@media (max-width: 1000px){
+	.cards__row{
+		display: flex;
+		flex-wrap: wrap;
 	}
 	
 
