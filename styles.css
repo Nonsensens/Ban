@@ -28,7 +28,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	z-index:3;
+	z-index:2;
 }
 
 .logo{
@@ -36,6 +36,7 @@
 	margin-top: 1.5%;
 	transition: 1s;
 	flex: 0 0 60px;
+	z-index: 53
 	
 }
 .logo img{
@@ -52,6 +53,8 @@ nav{
 	color: #fff;
 	list-style-type: none;
 	display: inline-flex;
+	position: relative;
+	z-index: 2
 
 
 }
@@ -226,7 +229,7 @@ nav{
 
 @media (max-width:1250px){
 	nav{
-		display: none;
+		
 	}
 	.cotainer{
 		
@@ -242,6 +245,7 @@ nav{
 		position: relative;
 		width: 30px;
 		height: 50px;
+		z-index: 3
 	}
 	.header_burger:before{
 		content: '';
@@ -250,6 +254,7 @@ nav{
 		width: 100%;
 		height: 2px;
 		left:0;
+		transition: 0.3s;
 	}
 	.header_burger:after{
 		content: '';
@@ -258,6 +263,7 @@ nav{
 		width: 100%;
 		height: 2px;
 		left:0;
+		transition: 0.3s;
 	}
 	.header_burger span{
 		background: #fff;
@@ -266,6 +272,7 @@ nav{
 		width: 100%;
 		height: 2px;
 		top:15px;
+		transition: 0.3s;
 	
 	}
 	.header_burger:before{
@@ -274,13 +281,35 @@ nav{
 	.head_burgher:after{
 		bottom:5px;
 	}
+	.header_burger.active span{
+		transform: scale(0);
+	}
+	.header_burger.active:after{
+		transform: rotate(45deg);
+		top:9px;
+	}
+	.header_burger.active:before{
+		transform: rotate(-45deg);
+		bottom:9px;
+	}
 	.header_menu{
 		position: fixed;
-		top: 0;
+		top: -140%;
+		display: flex;
+		flex-direction: column;
 		left: 0;
 		width: 100%;
 		height: 100%;
 		background: #000;
+		padding-top: 300px;
+		padding-left: 50px;
+		transition: 0.3s;
+	}
+	.header_menu.active{
+		top:50px;
+	}
+	.sl{
+		display: block;
 	}
 
 }
