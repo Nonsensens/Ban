@@ -523,11 +523,18 @@ nav{
 	.title p{
 		font-size: 25px;
 	}
-	
-	.ima img{
-		max-width: 100%;
-		
+	.zag1{
+		margin: 0 auto;
+
 	}
-	
+	.par1{
+		margin: 0 auto
+	}
+	.par2{
+		margin: 0 auto;
+	}
+	.blue{
+		margin: 0 auto;
+	}
 
 }
