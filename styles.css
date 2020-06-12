@@ -340,9 +340,13 @@ nav{
 		flex-direction: column;
 		
 	}
+	.column{
+		margin-bottom: 50px;
+	}
+	
 	.img{
 		max-width: 869px;
-		
+
 	}
 
 
