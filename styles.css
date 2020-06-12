@@ -344,7 +344,7 @@ nav{
 		margin-bottom: 50px;
 	}
 	
-	.img{
+	.img1{
 		max-width: 869px;
 
 	}
@@ -357,7 +357,10 @@ nav{
 @media (max-width:767px){
 	.title h1{
 		font-size: 30px;
-	
+	}	
+	.img1{
+		width: 50%;
+	}
 	
 
 }
