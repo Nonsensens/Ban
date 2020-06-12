@@ -488,11 +488,29 @@ nav{
 	}
 	.items{
 		flex-direction: column;
+		
+		margin: 0 auto;
+
 	}
 	.fir img{
 		max-width: 100%;
 	}
 	.imag img{
+		max-width: 100%;
+	}
+	.zag1{
+		font-size: 30px;
+	}
+	.par1{
+		font-size: 15px;
+	}
+	.par2{
+		font-size: 15px;
+	}
+	.bl1 img{
+		max-width: 100%
+	}
+	.bl2 img{
 		max-width: 100%;
 	}
 
