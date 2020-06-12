@@ -536,5 +536,9 @@ nav{
 	.blue{
 		margin: 0 auto;
 	}
+	.fir img{
+		max-width: 175%;
+
+	}
 
 }
