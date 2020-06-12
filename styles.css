@@ -11,19 +11,41 @@
 .head{
 	background: url(img/bg.png);
 }
+
 .header{
+	width: 85%;
+	top:0;
+	z-index: 50;
+	position: fixed;
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 11%;
+
 }
+.header:before{
+	background: #fff;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index:3;
+}
+
 .logo{
 	margin-left: 8%;
 	margin-top: 1.5%;
 	transition: 1s;
+	flex: 0 0 60px;
+	
+}
+.logo img{
+	max-width: 2000px;
+	display: block;
 }
 nav{
+	margin-left: 0%;
 	margin-top: 2.5%;
-	margin-right: 9.5%;
+	margin-right: 19.5%;
 	
 }
 .sp{
@@ -42,6 +64,11 @@ nav{
 }
 .sp li{
 		font-size: 18px;
+		padding: 10px 37px 10px 37px;
+		transition: 0.5s;
+		color:#2f4b93;
+		border-radius: 35px;
+		border:1px solid #2f4b93;
 }
 .nad1{
 	margin-right: 45px;
@@ -62,19 +89,14 @@ nav{
 .nad5{
 	text-decoration: none;
 	margin-left: 128px;
-	margin-right: 228px;
+	margin-right: 260px;
 }
-.sp li:hover {
-	padding: 10px 37px 10px 37px;
-	transition: 0.5s;
-	color:#2f4b93;
-	border-radius: 35px;
-	border:1px solid #2f4b93;
-}
+
 .title{
 	text-align: center;
 }
 .title h1{
+	padding-top:100px;
 	color: #fff;
 	font-size: 60px;
 	transition: 1s;
@@ -116,6 +138,9 @@ nav{
 }
 .container{
 	max-width: 1660px;
+	position: relative;
+	display: flex;
+
 }
 .container1{
 	max-width: 882px;
@@ -192,7 +217,73 @@ nav{
 
 
 
+.header_burger{
+	display: none;
+}
+.header_meny{}
 
+
+
+@media (max-width:1250px){
+	nav{
+		display: none;
+	}
+	.cotainer{
+		
+	}
+	.logo{
+
+	}
+
+	.header_burger{
+		left: 30px;
+		margin-top: 30px;
+		display: block;
+		position: relative;
+		width: 30px;
+		height: 50px;
+	}
+	.header_burger:before{
+		content: '';
+		background-color: #fff;
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		left:0;
+	}
+	.header_burger:after{
+		content: '';
+		background-color: #fff;
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		left:0;
+	}
+	.header_burger span{
+		background: #fff;
+		position: absolute;
+		left:0;
+		width: 100%;
+		height: 2px;
+		top:15px;
+	
+	}
+	.header_burger:before{
+		top:7px;
+	}
+	.head_burgher:after{
+		bottom:5px;
+	}
+	.header_menu{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #000;
+	}
+
+}
 
 
 
