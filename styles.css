@@ -135,15 +135,14 @@ nav{
 	margin-bottom: -570px;
 	
 }
-.img{
-	display: flex;
+.ima{
+	margin: 0 auto;	
 	justify-content: center;
-	flex: 1 1 882px;
+	align-items: center;
+	display: flex;
 
 }
-.img img{
-	max-width: 882px;
-}
+
 .container{
 	max-width: 1660px;
 	position: relative;
@@ -344,7 +343,7 @@ nav{
 		margin-bottom: 50px;
 	}
 	.ima img{
-		max-width: 100%;
+	max-width: 100%;
 
 	
 
